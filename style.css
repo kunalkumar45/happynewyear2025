@@ -52,6 +52,20 @@ h2 {
     animation: animate 1s linear forwards;
     animation-delay: 3s;
 }
+h5{
+    color: #ff0000;
+    font-size: 1.5rem;
+    transform: scale(0);
+    animation: animate 1s linear forwards;
+    animation-delay: 3s;
+    margin: 10px 0;
+}
+p{
+    color: #ffff00;
+    transform: scale(0);
+    animation: animate 1s linear forwards;
+    animation-delay: 3s;
+}
 
 @keyframes animate {
     0% {
